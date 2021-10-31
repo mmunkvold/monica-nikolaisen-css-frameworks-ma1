@@ -38,12 +38,12 @@ a {
   box-shadow: $box-shadow;
 }
 
-.card__item-border {
+.card--border {
   background: $white;
   border: $border-width solid $purple;
 }
 
-.card__item-bg {
+.card--bg {
   background: $purple;
   border: $border-width solid $white;
 }
