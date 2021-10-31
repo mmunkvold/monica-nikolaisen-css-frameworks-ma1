@@ -1,0 +1,30 @@
+$light: #f4f3ee; //navbar/footer bg color
+$purple: #c32c72;
+
+$body-background-color: #e5e5e5;
+$font-color: #463f3a;
+
+$navbar-brand-color: #262626;
+$navbar-light-color: #8d8d8d; //nav font color
+$navbar-light-hover-color: $purple;
+$navbar-light-active-color: $purple;
+$link-hover-color: $purple;
+
+$navbar-light-toggler-border-color: none;
+$navbar-toggler-transition: all 0.3s ease-in-out;
+
+$card-bg: $light;
+$border-width: 3px;
+$border-radius: 20px;
+$card-border-width: $border-width;
+$card-border-radius: $border-radius;
+$box-shadow: 0px 6px 12px 0px rgba(0, 0, 0, 0.1);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 1042px,
+  xl: 1200px,
+  xxl: 1400px,
+);

@@ -1,0 +1,31 @@
+.navbar-brand {
+  font-family: "Open Sans", sans-serif;
+  font-size: 36px;
+  color: var(--logo-color) !important;
+}
+
+.navbar {
+  background: var(--primary-color) !important;
+  text-transform: uppercase;
+}
+
+.navbar-collapse {
+  z-index: 1;
+} /* Not sure about this, but needs to put this on top when hamburger menu is toggled to cover the main body */
+
+.nav-item {
+  font-family: "Archivo Narrow", sans-serif;
+  font-size: 18px;
+  color: var(--nav-color) !important;
+}
+
+.active {
+  color: var(--purple-color) !important;
+}
+
+.navbar-toggler {
+  border: none !important;
+}
+
+/* Need to hide the icon when clicked */
+/* Change size on hamburgermenu items */
